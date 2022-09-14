@@ -22,5 +22,5 @@ const server = http.createServer((req, res) => {
     fs.createReadStream("./html/not-found.html").pipe(res);
   }
 });
-
+console.log('first')
 server.listen(8080);
